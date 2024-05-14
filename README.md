@@ -1,7 +1,7 @@
 # ArcGIS-API-Project_SustainAbility
 This is a team project submitted to ESRI's ECCE App Challenge (2019).
 
-A demo of the application, along with a more detailed description on how it works can be found [here](https://esricanada-ce.github.io/ecce-app-challenge-2019/The_Four_Mapsketeers/app/sustainAbility/AppChallenge2019_sustain_ability_splashpage_20190328.html#Data).
+A demo of the application, along with a more detailed description on how it works can be found [here](https://esricanada-ce.github.io/ecce-app-challenge-2019/The_Four_Mapsketeers/app/sustainAbility/AppChallenge2019_sustain_ability_splashpage_20190328.html).
 
 
 ## Mission Statement
