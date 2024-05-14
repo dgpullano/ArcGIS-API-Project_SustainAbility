@@ -1,8 +1,7 @@
 # ArcGIS-API-Project_SustainAbility
 This is a team project submitted to ESRI's ECCE App Challenge (2019).
 
-A demo of the application, along with a more detailed description on how it works can be found through the following link:
-https://esricanada-ce.github.io/ecce-app-challenge-2019/The_Four_Mapsketeers/app/sustainAbility/AppChallenge2019_sustain_ability_splashpage_20190328.html#Data
+A demo of the application, along with a more detailed description on how it works can be found [here](https://esricanada-ce.github.io/ecce-app-challenge-2019/The_Four_Mapsketeers/app/sustainAbility/AppChallenge2019_sustain_ability_splashpage_20190328.html#Data).
 
 
 ## Mission Statement
@@ -20,23 +19,23 @@ The city of Calgary is our home. Therefore, we decided to create an application 
 
 The community sustainability evaluation feature allows you to view the relative sustainability of communities within the City of Calgary. The sustainability of a community is based on categories derived from Calgary's Municipal government plan. The chosen categories are "Green the City", "Connect the City", and "Compactness". These goals represent part of Calgary's effort to plan for its growing population over the next 30-60 years in a sustainable fashion. The goal of this feature is to allow you to view Calgary's communities through the lens of sustainability, to see which communities are effectively addressing sustainability, and which have room for improvement. While the city has its own definitions for sustainability, we recognize that each citizen will have their own priorities and opinions on which aspects of sustainability are most important to them. This is why we allow you to choose which metrics are the most important to you. Each criteria, and each evaluation metric, has an associated slider in the app, letting you choose its impact from 0-10. You are able and encouraged to choose how much impact each component has on the final evaluation. For example, you may consider having more green-spaces in a community important, but may not want a densely populated neighborhood.
 
-The "Green the City" metric is based on these elements:
+#### The "Green the City" metric is based on these elements:
 
-Amount of green-space in the community
-Amount of trees in the community
+- Amount of green-space in the community
+- Amount of trees in the community
 
-The "Connect the City" metric is based on these elements:
+#### The "Connect the City" metric is based on these elements:
 
-Amount and quality of roads
-Amount and quality of bikeways
-Amount and quality of walkways
-Accessibility of bus transport
-Accessibility of bus transport
+- Amount and quality of roads
+- Amount and quality of bikeways
+- Amount and quality of walkways
+- Accessibility of bus transport
+- Accessibility of bus transport
 
-The "Compactness" metric is based on these elements: population and business density within the community.
+#### The "Compactness" metric is based on these elements: population and business density within the community.
 
-Population density within the community
-Business density within the community
+- Population density within the community
+- Business density within the community
 
 ### SustainAble Food
 
@@ -56,34 +55,34 @@ One of the biggest planning issues regarding the development of the built enviro
 The App focuses on sustainable community development within the City of Calgary and looks at the following criteria and metrics:
 
 
-Greening the city
-Connecting the city
-Densifying/compacting the city
+- Greening the city
+- Connecting the city
+- Densifying/compacting the city
 
 
 ### Greening the city factors include:
 
-Greenspace ratios per community (GreenPer)
-GreenPer = Natural area in community/total area in community
-Trees per area per community
-Tree_Densi = # trees in community/total area in community
+- Greenspace ratios per community (GreenPer)
+- GreenPer = Natural area in community/total area in community
+- Trees per area per community
+- Tree_Densi = # trees in community/total area in community
 
 ### Connecting the city factors include:
 
-Arterial road lengths intersecting each community
-Road_Per = Road segments length in community/total area in community
-Bike lane lengths intersecting each community
-Bike lane segments length in community/total area in community
-Bus route coverage ratio (400m buffer) per community
-Bus_Per = Area in community within 400m buffer from a bus stop/total area in community
-LRT station coverage ratio (1000m buffer) per community
-LRT_Per = Area in community within 1000m buffer from an LRT station/total area in community
+- Arterial road lengths intersecting each community
+- Road_Per = Road segments length in community/total area in community
+- Bike lane lengths intersecting each community
+- Bike lane segments length in community/total area in community
+- Bus route coverage ratio (400m buffer) per community
+- Bus_Per = Area in community within 400m buffer from a bus stop/total area in community
+- LRT station coverage ratio (1000m buffer) per community
+- LRT_Per = Area in community within 1000m buffer from an LRT station/total area in community
 
 ### Densifying/compacting the city factors include:
-Population density per community
-PopDensi = Population in community/total area in community
-Business density per community
-BusiDensi = # businesses in community/total area in community
+- Population density per community
+- PopDensi = Population in community/total area in community
+- Business density per community
+- BusiDensi = # businesses in community/total area in community
 
 All of these metrics are calculated for each community by intersecting each original dataset with the community boundaries in Calgary. For most of the metrics included, we normalized the data based off of the size of each community. This is due to the rankings being generated relative to all the other communities in Calgary.
 
@@ -165,10 +164,10 @@ In a later version of the app, we would like to include the other three criteria
 
 
 ## Team Biography - The 4 Mapsketeers
-Rodrigo Silva is a second year MSc student in the Geomatics Engineering department at University of Calgary. He received his BSc in Computer Engineering from University of Pernambuco, Brazil. His current research is related to personalized route recommendation with the use of collaborative filtering techniques.
+**Rodrigo Silva** is a second year MSc student in the Geomatics Engineering department at University of Calgary. He received his BSc in Computer Engineering from University of Pernambuco, Brazil. His current research is related to personalized route recommendation with the use of collaborative filtering techniques.
 
-Dillon Pullano is a second year MSc graduate student in Geomatics Engineering at the University of Calgary with a specialization in Land Tenure and GIS. His research topic is related to the development of a 3D cadastre. It focuses on spatial data structures and processes that could be implemented to digitally perform topological analysis between 2D and 3D objects. He completed his BSc degree in Geomatics Engineering from the University of Calgary in 2017. For more information on Dillon’s research you can visit the University of Calgary’s Land Tenure and Cadastral Systems Research Group homepage
+**Dillon Pullano** is a second year MSc graduate student in Geomatics Engineering at the University of Calgary with a specialization in Land Tenure and GIS. His research topic is related to the development of a 3D cadastre. It focuses on spatial data structures and processes that could be implemented to digitally perform topological analysis between 2D and 3D objects. He completed his BSc degree in Geomatics Engineering from the University of Calgary in 2017. For more information on Dillon’s research you can visit the University of Calgary’s Land Tenure and Cadastral Systems Research Group homepage
 
-Sandra Simeonova is a first-year MSc student in the Geomatics Engineering department at University of Calgary. She is a Department of Geomatics Alumni. Her research is focused in the area of digital imaging systems, mainly focusing on unmanned aerial vehicles (UAV’s). Prior to her return to higher education in 2011, she worked as a travel agent, were her passion for travel and education evolved.
+**Sandra Simeonova** is a first-year MSc student in the Geomatics Engineering department at University of Calgary. She is a Department of Geomatics Alumni. Her research is focused in the area of digital imaging systems, mainly focusing on unmanned aerial vehicles (UAV’s). Prior to her return to higher education in 2011, she worked as a travel agent, were her passion for travel and education evolved.
 
-David Jarron is a second year MSc student in the Department of Geomatics Engineering at the University of Calgary. His specialization is in Mobile mapping systems and image metrology, although he is interested at testing his skills in GIS application development. He completed his BSc in Geomatics engineering at the University of Calgary in 2017 and interned at the City of Calgary working on GIS legal survey data.
+**David Jarron** is a second year MSc student in the Department of Geomatics Engineering at the University of Calgary. His specialization is in Mobile mapping systems and image metrology, although he is interested at testing his skills in GIS application development. He completed his BSc in Geomatics engineering at the University of Calgary in 2017 and interned at the City of Calgary working on GIS legal survey data.
